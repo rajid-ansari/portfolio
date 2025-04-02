@@ -8,6 +8,10 @@ import sidcup from "../assets/sidcup.png";
 const Projects = () => {
     return (
         <div className="min-h-screen px-4 md:px-16 py-5 overflow-x-hidden">
+            <div className="flex items-center gap-2 mb-3 ml-2">
+            <div className="h-2 w-2 rounded-full bg-gray-200 "></div>
+            <h1 className="text-white-10 text-xl font-moranga">Projects</h1>
+            </div>
             <div>
                 <div className="h-[40vh] md:h-[58vh] w-full bg-black/90 mb-5 rounded-xl cursor-pointer relative group overflow-hidden bg-cover">
                     <ProjectsLink link="https://ui-ochi.netlify.app" />

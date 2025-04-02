@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Techstack from "./components/Techstack";
 
 // const router = createBrowserRouter([
 //     {
@@ -53,6 +54,7 @@ const App = () => {
             <Hero />
             <About />
             <Projects />
+            <Techstack />
             <Footer />
         </>
     );
