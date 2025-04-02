@@ -12,12 +12,14 @@ const Techstack = () => {
 	const style = {
 		backgroundColor: "whitesmoke",
 		color: "black",
-		fontFamily: "Sans-serif"
+		fontFamily: "Sans-serif",
+        fontWeight: 600,
+        borderRadius: "20px",
 	}
 
     return (
         <div className="text-white-10 font-moranga px-16 my-20">
-            <h1 className="text-4xl">Tools & Technology :)</h1>
+            <h1 className="text-4xl">Skilled In -</h1>
 
             {/* techstack images */}
             <div className="w-full py-4 flex flex-wrap items-center gap-2">
@@ -32,7 +34,7 @@ const Techstack = () => {
                     <img
                         src={html}
                         alt="HTML"
-                        className="h-20 w-20 object-contain object-center"
+                        className="h-20 w-20 object-contain object-center cursor-pointer"
                     />
                 </div>
 
@@ -48,7 +50,7 @@ const Techstack = () => {
                         <img
                             src={css}
                             alt="CSS"
-                            className="h-20 w-20 object-contain object-center"
+                            className="h-20 w-20 object-contain object-center cursor-pointer"
                         />
                     </div>
                 </div>
@@ -65,7 +67,7 @@ const Techstack = () => {
                         <img
                             src={js}
                             alt="JavaScript"
-                            className="h-20 w-20 object-contain object-center"
+                            className="h-20 w-20 object-contain object-center cursor-pointer"
                         />
                     </div>
                 </div>
@@ -82,7 +84,7 @@ const Techstack = () => {
                         <img
                             src={react}
                             alt="React Js"
-                            className="h-20 w-20 object-contain object-center"
+                            className="h-20 w-20 object-contain object-center cursor-pointer"
                         />
                     </div>
                 </div>
@@ -99,7 +101,7 @@ const Techstack = () => {
                         <img
                             src={tailwind}
                             alt="Tailwind CSS"
-                            className="h-20 w-20 object-contain object-center"
+                            className="h-20 w-20 object-contain object-center cursor-pointer"
                         />
                     </div>
                 </div>
@@ -116,19 +118,28 @@ const Techstack = () => {
                         <img
                             src={github}
                             alt="Github"
-                            className="h-20 w-20 object-contain object-center"
+                            className="h-20 w-20 object-contain object-center cursor-pointer"
                         />
                     </div>
                 </div>
                 
                 <div className="relative h-[73px] w-[73px] bg-gradient-to-b from-white to-gray-300 rounded-2xl flex items-center justify-center shadow-lg">
+                <div 
+                    data-tooltip-id="redux-tt"
+                    data-tooltip-content="Redux"
+                    data-tooltip-place="top"
+                    >
+                    <Tooltip id="redux-tt"
+                    style={style}
+                    />
                     <img
                         src={redux}
                         alt="Redux Logo"
-                        className="h-16 w-16 object-contain object-center"
-                    />
+                        className="h-16 w-16 object-contain object-center cursor-pointer"
+                        />
                     {/* Shiny effect */}
                     <span className="absolute top-0 left-0 w-6 h-6 bg-white opacity-30 blur-md rounded-full"></span>
+                        </div>
                 </div>
             </div>
         </div>
