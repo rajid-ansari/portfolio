@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Techstack from "./components/Techstack";
+// import ContactForm from "./components/ContactForm";
 
 // const router = createBrowserRouter([
 //     {
@@ -55,6 +56,7 @@ const App = () => {
             <About />
             <Projects />
             <Techstack />
+            {/* <ContactForm /> */}
             <Footer />
         </>
     );
