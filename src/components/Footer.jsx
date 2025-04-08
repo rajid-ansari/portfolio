@@ -1,8 +1,6 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import igLogo from "../assets/ig_logo.png";
 
 const Footer = () => {
     return (
@@ -18,7 +16,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                 >
                     <button className="h-10 w-10 md:h-[5vh] md:w-[5vh] rounded-full flex items-center justify-center ">
-                        <img src={igLogo} alt="" />
+                        <img src="https://ik.imagekit.io/vx7u9slhq/assets/ig_logo.png?updatedAt=1744104660306" alt="" />
                     </button>
                 </a>
                 <a

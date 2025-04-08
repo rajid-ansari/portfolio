@@ -17,8 +17,9 @@ const Projects = () => {
                     <ProjectsLink link="https://ui-ochi.netlify.app" />
                     <img
                         className="h-full w-full group-hover:hidden object-contain transition-all duration-[0.5s] ease-in-out"
-                        src={ochi}
+                        src="https://ik.imagekit.io/vx7u9slhq/assets/ochi.png?updatedAt=1744104661403"
                         alt=""
+                        loading="lazy"
                     />
                 </div>
             </div>
@@ -26,18 +27,20 @@ const Projects = () => {
             <div className="h-[40vh] md:h-[58vh] w-full gap-5 grid grid-rows-2 md:grid-rows-1 grid-cols-1 md:grid-cols-2">
                 <div className="bg-black/90 rounded-xl cursor-pointer relative overflow-hidden bg-cover group">
                     <ProjectsLink link="https://rajid-ansari.github.io/works-studio-ui/" />
-                    <img className="h-full w-full group-hover:hidden object-contain transition-all duration-[0.5s] ease-in-out" src={works} alt="" />
+                    <img className="h-full w-full group-hover:hidden object-contain transition-all duration-[0.5s] ease-in-out" src="https://ik.imagekit.io/vx7u9slhq/assets/works.png?updatedAt=1744104666765" alt="" loading="lazy" />
                 </div>
+
                 <div className="bg-black/90 rounded-xl cursor-pointer relative overflow-hidden bg-cover group">
                     <ProjectsLink link="https://rajid-ansari.github.io/netflix-ui-clone/" />
-                    <img className="h-full object-contain group-hover:hidden transition-all duration-[0.5s] ease-in-out" src={netflix} alt="" />
+                    <img className="h-full object-contain group-hover:hidden transition-all duration-[0.5s] ease-in-out" src="https://ik.imagekit.io/vx7u9slhq/assets/netflix.png?updatedAt=1744104663272" alt="" loading="lazy" />
                 </div>
             </div>
+
             <div className="h-[40vh] md:h-[58vh] w-full bg-black/90 mt-5 rounded-xl cursor-pointer relative overflow-hidden bg-cover group">
                 <ProjectsLink link="https://rajid-ansari.github.io/sidcup-family-golf-UI/" />
                 <img
                 className="group-hover:hidden object-contain h-full w-full transition-all duration-[0.5s] ease-in-out"
-                src={sidcup} alt="" />
+                src="https://ik.imagekit.io/vx7u9slhq/assets/sidcup.png?updatedAt=1744104667683" alt="" loading="lazy" />
             </div>
         </div>
     );

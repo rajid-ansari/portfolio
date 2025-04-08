@@ -24,14 +24,14 @@ const Techstack = () => {
 
             {/* techstack images */}
             <div className="w-full py-4 flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8">
-                {[{ id: "html-tt", src: html, alt: "HTML", tooltip: "HTML" },
-                  { id: "css-tt", src: css, alt: "CSS", tooltip: "CSS" },
-                  { id: "js-tt", src: js, alt: "JavaScript", tooltip: "JavaScript" },
-                  { id: "react-tt", src: react, alt: "React Js", tooltip: "React" },
-                  { id: "tailwind-tt", src: tailwind, alt: "Tailwind CSS", tooltip: "Tailwind CSS" },
-                  { id: "git-tt", src: git, alt: "Git", tooltip: "Git" },
-                  { id: "github-tt", src: github, alt: "Github", tooltip: "Github" },
-                  { id: "redux-tt", src: redux, alt: "Redux Logo", tooltip: "Redux" }]
+                {[{ id: "html-tt", src: "https://ik.imagekit.io/vx7u9slhq/assets/html.png?updatedAt=1744104661600", alt: "HTML", tooltip: "HTML" },
+                  { id: "css-tt", src: "https://ik.imagekit.io/vx7u9slhq/assets/css.png?updatedAt=1744104661715", alt: "CSS", tooltip: "CSS" },
+                  { id: "js-tt", src: "https://ik.imagekit.io/vx7u9slhq/assets/javascript.png?updatedAt=1744104661366", alt: "JavaScript", tooltip: "JavaScript" },
+                  { id: "react-tt", src: "https://ik.imagekit.io/vx7u9slhq/assets/react.png?updatedAt=1744104664778", alt: "React Js", tooltip: "React" },
+                  { id: "tailwind-tt", src: "https://ik.imagekit.io/vx7u9slhq/assets/tailwind.png?updatedAt=1744104666479", alt: "Tailwind CSS", tooltip: "Tailwind CSS" },
+                  { id: "git-tt", src: "https://ik.imagekit.io/vx7u9slhq/assets/git.png?updatedAt=1744104661587", alt: "Git", tooltip: "Git" },
+                  { id: "github-tt", src: "https://ik.imagekit.io/vx7u9slhq/assets/github.png?updatedAt=1744104661578", alt: "Github", tooltip: "Github" },
+                  { id: "redux-tt", src: "https://ik.imagekit.io/vx7u9slhq/assets/redux.png?updatedAt=1744104666406", alt: "Redux Logo", tooltip: "Redux" }]
                   .map(({ id, src, alt, tooltip }) => (
                     <div
                         key={id}
