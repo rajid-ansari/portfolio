@@ -26,7 +26,7 @@ const Hero = () => {
 
                 <div className="h-[70vh] sm:h-[75vh] md:h-[80vh] w-full sm:w-[90%] md:w-[80%] lg:w-[70%] overflow-hidden px-2 sm:px-4 rounded-2xl sm:rounded-3xl">
                     <img
-                        src="https://ik.imagekit.io/vx7u9slhq/assets/hero_pic.jpg?updatedAt=1744104662803"
+                        src="https://ik.imagekit.io/vx7u9slhq/assets/hero_pic.jpg?tr=w-1510,f-auto,q-100"
                         alt="Hero"
                         className="object-center h-full w-full object-cover"
                         loading="eager"
