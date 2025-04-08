@@ -8,8 +8,8 @@ const Footer = () => {
     return (
         <div className="h-auto w-full font-moranga pt-10 pb-12 px-4 md:px-16 flex flex-col justify-between ">
             <hr />
-            <h2 className="text-center text-gray-300 font-semibold mb-4 md:mb-10 md:mt-3 text-3xl md:text-5xl p-2">
-                want to connect :
+            <h2 className="text-center text-gray-300 font-semibold mb-4 md:mb-2 md:mt-3 text-3xl md:text-5xl p-2">
+                Social ~
             </h2>
             <div className="grid grid-cols-3 w-fit mx-auto grid-rows-1 gap-5 md:gap-6">
                 <a
@@ -46,7 +46,7 @@ const Footer = () => {
                     </button>
                 </a>
             </div>
-            <p className="text-gray-300 leading-none mx-auto mt-6">Made with 🤍</p>
+            <p className="text-gray-300 leading-none mx-auto mt-12">Made with 🤍</p>
         </div>
     );
 };

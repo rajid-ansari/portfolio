@@ -36,7 +36,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-4 max-w-lg mx-auto bg-black/80 p-6 rounded-lg shadow-lg h-[50vh] w-[50vw]">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-4 max-w-lg mx-auto bg-black/80 p-6 rounded-lg shadow-lg h-[50vh] w-[80vw] md:w-[50vw]">
       <h1 className="text-white-10 mx-auto">Let's Connect 🤝</h1>
       <input
         type="text"
