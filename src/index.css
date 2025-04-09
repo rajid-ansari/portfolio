@@ -9,3 +9,16 @@ body {
 ::selection {
     background-color: #dd5d33;
 }
+
+.resume-btn::before {
+    content: "";
+    position: absolute;
+    left: 90.5%;
+    top: 34px;
+    height: 40px;
+    width: 0;
+    background-color: #3b82f6;
+    z-index: -1;
+    border-radius: 20px;
+    transition: all ease-in 0.3s 0s;
+}
